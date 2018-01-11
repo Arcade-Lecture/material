@@ -51,3 +51,4 @@ Module.symvers
 Mkfile.old
 dkms.conf
 Chapter 02/00 Hello World/cmake-build-debug
+Chapter 02/01 IndexOf/cmake-build-debug

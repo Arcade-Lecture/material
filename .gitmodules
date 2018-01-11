@@ -1,0 +1,3 @@
+[submodule "Chapter 02/03 - Row Stores/libs/gecko-commons"]
+	path = Chapter 02/03 - Row Stores/libs/gecko-commons
+	url = https://github.com/geckodb/gecko-commons.git

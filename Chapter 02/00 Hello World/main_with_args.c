@@ -1,7 +1,11 @@
-#include <stdio.h>
-#include <stdlib.h>
+unsigned long a, b, d;
 
-int main(int argc, char **argv) {
-    printf("Hello, World from '%s'!\n", argv[0]);
-    return EXIT_SUCCESS;
+int main(int a, char **c) {
+    d = (a += 1), (d = 112);
+    b = a = 23, b = 42, b += (a++ + b);
+    {
+        int a = b + 5;
+        b = a;
+    }
+    return b - d;
 }
